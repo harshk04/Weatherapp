@@ -24,10 +24,15 @@ Wind Speed🍃 in km/hr.
  
  
  The website is built using the following technologies:
+ 
 HTML5
+
 CSS3
+
 JavaScript
+
 Weather by API-Ninjas
+
 
 
 **Credits**
