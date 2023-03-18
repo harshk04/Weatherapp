@@ -13,11 +13,11 @@ To use the website, simply open the index.html file in your web browser. Then se
 
 The website includes the following features:
 
-Temperature 🌡️ in Degrees.
+1. Temperature 🌡️ in Degrees.
 
-Humidity 💧
+2. Humidity 💧
 
-Wind Speed🍃 in km/hr.
+3. Wind Speed🍃 in km/hr.
 
 
 **Technologies Used 💻**
@@ -25,13 +25,13 @@ Wind Speed🍃 in km/hr.
  
  The website is built using the following technologies:
  
-HTML5
+1. HTML5
 
-CSS3
+2. CSS3
 
-JavaScript
+3. JavaScript
 
-Weather by API-Ninjas
+4. Weather by API-Ninjas
 
 
 
