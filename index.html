@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+ 
+
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <title>Dark Weather | Weather API</title>
+  </head>
+  <body>
+    <div class="main-comtainer">
+      <div class="heading">
+        <div class="logo">
+          <img src="image/favicon.png" alt="logo" class="src" />
+          <h5>Dark Weather</h5>
+        </div>
+
+        <div id="search">
+          <input id="city" type="text" placeholder="Search for city" />
+          <button class="btn" type="submit" id="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <div class="main">
+        <div class="con">
+            
+          <div class="sd">
+            <h2>Temerature</h2>
+            <div class="info">
+              <i class="fa-solid fa-temperature-low"></i>
+              <h2 id="temp"> <span id="temp"></span> </h2>
+            </div>
+          </div>
+
+          <div class="sd">
+            <h2>Humidity</h2>
+            <div class="info">
+              <i class="fa-solid fa-temperature-low"></i>
+              <h2 id="humidity"><span id="humidity"></span></h2>
+            </div>
+          </div>
+
+
+        
+          <div class="sd">
+            <h2>Wind</h2>
+            <div class="info">
+                <i class="fa-solid fa-temperature-low"></i>
+              <h2 id="wind"><span id="wind_speed"></span></h2>
+            </div>
+          </div>
+
+          <div id="location">
+            <h2 id="loc"><span id="cityName"></span></h2>
+          </div>
+        </div>
+        <div id="text" class="text">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ex perspiciatis tenetur? Optio rem asperiores facilis quis deserunt officiis ratione quia, cumque doloribus qui. Dignissimos quisquam quas deserunt debitis sequi aut, quam asperiores error.
+        </div>
+      </div>
+
+      <div class="footer">
+        <h2>
+          Made with <i class="fa-solid fa-heart" style="color: red;"></i> By
+          <a href="https://www.linkedin.com/in/harsh-kumawat-069bb324b/"
+            style="color: #e78494e1; " target="_blank"> <u>Harsh Kumawat</u> </a
+          >
+        </h2>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
