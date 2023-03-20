@@ -35,7 +35,7 @@ getWeather(city.value)
 
   })
 
-  getWeather("City :")
+  getWeather("City ")
   let city=document.querySelector('input');
 
   const ai = {
@@ -48,7 +48,7 @@ getWeather(city.value)
     body: JSON.stringify({
       enable_google_results: 'true',
       enable_memory: false,
-      input_text: `slogan for weather in ${sval.value} in about 20 words`
+      input_text: `About the weather in ${city.value} in about 20 words`
     })
   };
   
