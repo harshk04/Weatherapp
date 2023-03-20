@@ -13,21 +13,30 @@ fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=' +city, opt
 	.then(response => response.json())
 	.then((response) => {
     console.log(response)
-    humidity.innerHTML = resopnse.humidity
-    temp.innerHTML = resopnse.temp
-    wind_speed.innerHTML = resopnse.wind_speed
+    document.getElementById("humidity").innerHTML=response.humidity
+    document.getElementById("temp").innerHTML=response.temp
+    document.getElementById("wind").innerHTML=response.wind_speed
   })
 
   
 	.catch(err => console.error(err));}
 
   submit.addEventListener("click",(e)=>{
+
+
+    if(e.keyCode===13){
+      e.preventDefault()
+      getWeather(city.value)
+    }
+
+    
     e.preventDefault()
 getWeather(city.value)
 
   })
 
-  getWeather("Delhi")
-
-
+  getWeather("City :")
   let city=document.querySelector('input');
+
+  
+  

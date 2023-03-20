@@ -15,21 +15,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body {
-  font-family: "Hellix", sans-serif;
-  background-color: black;
-}
-.heading {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  font-family: "Electrolize", sans-serif;
-  margin-bottom: 80px;
-}
-
-.heading .logo h5{
-    color: var(--bg-black-900);
-}
 .main {
   display: flex;
   justify-content: space-around;
@@ -41,26 +26,49 @@ img {
   margin-left: 5px;
   align-items: center;
 }
-.logo img {
+body {
+  font-family: "Hellix", sans-serif;
+  background-color: black;
+}
+
+.btn:hover {
+  background-color: rgb(232, 100, 100);
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: "Electrolize", sans-serif;
+  margin-bottom: 80px;
+}
+.header .logo img {
   width: 60px;
   height: auto;
 }
 
-.logo img:hover {
+.header .logo img:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
 
-#sl {
-  width: 30px;
-  margin: 0px;
-  height: auto;
+.header .logo h4{
+    color: var(--bg-black-50);
 }
-.logo {
+
+.header .logo {
   margin-left: 90px;
   margin-top: 50px;
   color: rgb(46, 6, 6);
 }
+
+/* #sl {
+  width: 30px;
+  margin: 0px;
+  height: auto;
+} */
+
 #search {
   margin-top: 60px;
   margin-right: 80px;
@@ -82,50 +90,53 @@ input {
   font-family: "Headland One", Garamond;
 }
 .btn {
+  align-items: center;
+  justify-content: center;
   border-radius: 8px;
   width: 40px;
   height: 40px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 10px;
+  margin-left: 8px;
   border: none;
   background-color: var(--logo-color);
 }
-.con {
+.main-box {
     background: linear-gradient(to right, pink, rgb(235, 70, 235));
   background-size: cover;
   padding-top: 50px;
   width: 30%;
   height: 400px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   border-radius: 15px;
   color: black;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
-.con img {
+
+/* .main-box img {
   margin: 0px;
   width: 30px;
-}
+} */
+
 .text {
   width: 50%;
   font-size: 30px;
-  color: var(--skin-color);
-  font-style: italic;
   font-family: "Headland One", Garamond;
+  color: var(--skin-color);
+  text-align: center;
 }
-.sd {
+.info-item {
   /* margin-top: 15px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.sd > h2 {
+.info-item > h2 {
   font-size: 20px;
 }
-.info {
+.info-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,20 +154,22 @@ input {
 
   font-family: "Headland One", Garamond;
 }
+
+
+
 .footer {
   color: white;
   text-align: center;
-  font-size: 13px;
-  margin-top: 30px;
+  margin-top: 40px;
+  font-size: 11px;
+ 
 }
 
 .footer h2 {
   color: var(--skin-color);
 }
-.btn:hover {
-  background-color: rgb(232, 100, 100);
-  cursor: pointer;
-}
+
+
 #temp,
 #wind,
 #humidity {
@@ -176,11 +189,11 @@ input {
     width: 80%;
     margin-top: 20px;
   }
-  .heading {
+  .header {
     flex-direction: column;
     align-items: center;
   }
-  .logo,#search {
+  .header .logo,#search {
     margin: 0px;
     margin-top: 15px;
   }
