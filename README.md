@@ -3,6 +3,11 @@
 This is a simple weather website that displays the current weather conditions for a location searched by the user. The website uses the Weather by API-Ninjas to fetch weather data, and is built using HTML, CSS, and JavaScript.
 
 
+
+**LIVE DEMO LINK:**
+https://harshk04.github.io/Weatherapp/
+
+
 **How to Use**
 
 
@@ -33,13 +38,13 @@ The website includes the following features:
 
 4. Weather by API-Ninjas
 
+5. Writesonic API
+
 
 
 **Credits**
 
 The website was created by Harsh Kumawat. It uses the Weather by API-Ninjas for weather data.
-
-
 
 
 Thanks for using it!!
