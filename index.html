@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Dark Weather | Weather API</title>
   </head>
   <body>
@@ -32,36 +33,43 @@
           <div class="info-item">
             <h2> <u> Temerature</u></h2>
             <div class="info-content">
-              <i class="fa-solid fa-temperature-low"></i>
-              <h4 id="temp"><span id="temp"></span></h4>
+              <span class="material-symbols-outlined">
+                thermometer
+                </span>
+              <h4 id="temp"><span id="temp">--</span></h4>
             </div>
           </div>
 
           <div class="info-item">
             <h2> <u>Humidity</u> </h2>
             <div class="info-content">
-              <i class="fa-duotone fa-droplet-degree"></i>
-              <h4 id="humidity"><span id="humidity">00</span></h4>
+              <span class="material-symbols-outlined">
+                humidity_low
+                </span>
+              <h4 id="humidity"><span id="humidity">--</span></h4>
             </div>
           </div>
 
           <div class="info-item">
             <h2> <u> Wind</u></h2>
             <div class="info-content">
-              <i class="fa-solid fa-temperature-low"></i>
-              <h4 id="wind"><span id="wind_speed">00</span></h4>
+              <span class="material-symbols-outlined">
+                air
+                </span>
+              <h4 id="wind"><span id="wind_speed">--</span></h4>
             </div>
           </div>
 
           <div id="location">
-            <h2 id="loc"><span id="cityName">00</span></h2>
+            <h2 id="loc"><span id="cityName">--</span></h2>
           </div>
         </div>
         <div id="text" class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ex
+          <span id="cityName">--</span>
+          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ex
           perspiciatis tenetur? Optio rem asperiores facilis quis deserunt
           officiis ratione quia, cumque doloribus qui. Dignissimos quisquam quas
-          deserunt debitis sequi aut, quam asperiores error.
+          deserunt debitis sequi aut, quam asperiores error. "
         </div>
       </div>
       <br /><br /><br />
