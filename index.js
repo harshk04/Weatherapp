@@ -34,32 +34,72 @@ fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=' +city, opt
     e.preventDefault()
 getWeather(city.value)
 document.getElementById("cityName").innerHTML=city.value
+
+
   })
 
   getWeather("City ")
 
 
-  // const ai = {
-  //   method: 'POST',
-  //   headers: {
-  //     accept: 'application/json',
-  //     'content-type': 'application/json',
-  //     'X-API-KEY': '3a126dff-98e8-4f11-b3a3-4879591d87ec'
-  //   },
-  //   body: JSON.stringify({
-  //     enable_google_results: 'true',
-  //     enable_memory: false,
-  //     input_text: `About the weather in ${city.value} in about 20 words`
-  //   })
-  // };
+
+
+const ai = {
+    method: 'POST',
+    headers: {
+      accept: 'application/json',
+      'content-type': 'application/json',
+      'X-API-KEY': '3a126dff-98e8-4f11-b3a3-4879591d87ec'
+    },
+    body: JSON.stringify({
+      enable_google_results: 'true',
+      enable_memory: false,
+      input_text: `slogan for weather in ${city.value} in about 20 words`
+    })
+  };
   
-  // fetch('https://api.writesonic.com/v2/business/content/chatsonic?engine=premium', ai)
-  //   .then(response => response.json())
-  //   .then(response => {
-  //       console.log(response)
-  //       document.getElementById("text").innerHTML=response.message
+  fetch('https://api.writesonic.com/v2/business/content/chatsonic?engine=premium', ai)
+    .then(response => response.json())
+    .then(response => {
+        console.log(response)
+        document.getElementById("text").innerHTML=response.message;
+    })
+    .catch(err => console.error(err));
+
+
+let btn=document.getElementById('btn');
+btn.addEventListener("click",(e)=>{
+    e.preventDefault()
+    getWeather(city.value)
+})
+
+
+
+
+
+
+// console.log(city.value)
+
+//   const ai = {
+//     method: 'POST',
+//     headers: {
+//       accept: 'application/json',
+//       'content-type': 'application/json',
+//       'X-API-KEY': '3a126dff-98e8-4f11-b3a3-4879591d87ec'
+//     },
+//     body: JSON.stringify({
+//       enable_google_results: 'true',
+//       enable_memory: false,
+//       input_text: `About the weather in ${city.value} in about 20 words`
+//     })
+//   };
+  
+//   fetch('https://api.writesonic.com/v2/business/content/chatsonic?engine=premium', ai)
+//     .then(response => response.json())
+//     .then(response => {
+//         console.log(response)
+//         document.getElementById("text").innerHTML=response.message
  
-  //   })
-  //   .catch(err => console.error(err));
+//     })
+//     .catch(err => console.error(err));
 
   
