@@ -44,7 +44,7 @@ document.getElementById("cityName").innerHTML=city.value
   //   headers: {
   //     accept: 'application/json',
   //     'content-type': 'application/json',
-  //     'X-API-KEY': '663d1402-30f0-4a43-90c2-877f2b61dc55'
+  //     'X-API-KEY': '3a126dff-98e8-4f11-b3a3-4879591d87ec'
   //   },
   //   body: JSON.stringify({
   //     enable_google_results: 'true',
