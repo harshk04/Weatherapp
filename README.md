@@ -4,17 +4,17 @@ This is a simple weather website that displays the current weather conditions fo
 
 
 
-**LIVE DEMO LINK:**
+## **LIVE DEMO LINK:**
 https://harshk04.github.io/Weatherapp/
 
 
-**How to Use**
+## **How to Use**
 
 
 To use the website, simply open the index.html file in your web browser. Then search for the location in the search boy and search for it, then it will display the current weather conditions. 
 
 
-**Features**
+## **Features**
 
 The website includes the following features:
 
@@ -25,7 +25,7 @@ The website includes the following features:
 3. Wind Speed🍃 in km/hr.
 
 
-**Technologies Used 💻**
+## **Technologies Used 💻**
  
  
  The website is built using the following technologies:
@@ -42,7 +42,7 @@ The website includes the following features:
 
 
 
-**Credits**
+## **Credits**
 
 The website was created by Harsh Kumawat. It uses the Weather by API-Ninjas for weather data.
 
