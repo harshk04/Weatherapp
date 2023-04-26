@@ -6,7 +6,7 @@ This is a simple weather website that displays the current weather conditions fo
 
 ## **LIVE DEMO LINK:**
 https://harshk04.github.io/Weatherapp/
-
+<br/>
 
 ## **How to Use**
 
