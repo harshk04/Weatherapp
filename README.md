@@ -13,8 +13,11 @@ https://harshk04.github.io/Weatherapp/
 
 To use the website, simply open the index.html file in your web browser. Then search for the location in the search boy and search for it, then it will display the current weather conditions. 
 
-![image](file:///Users/harshkumawat/Desktop/Screenshot%202023-04-27%20at%203.18.15%20AM.png)
-file:///Users/harshkumawat/Desktop/Screenshot%202023-04-27%20at%203.18.15%20AM.png
+## **Output**
+<br/>
+![image](https://github.com/harshk04/Weatherapp/blob/main/image/Screenshot%202023-04-27%20at%203.18.15%20AM.png)
+
+
 
 ## **Features**
 
